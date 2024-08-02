@@ -98,7 +98,7 @@ void window::update()
         }
         SDL_SetRenderDrawColor(renderer, 0xff, 0xff, 0xff, 0xff);
         SDL_RenderClear(renderer);
-        drawRect(90, 213, 250, 200, 200, x, y);
+        drawRect(90, 213, 250, 200, 200, x, y); 
         
 
     }
